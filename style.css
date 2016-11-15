@@ -193,13 +193,23 @@ footer p {
 
 @media (max-width: 1080px) {
 	p.qTwo{
-		font-size:30px;
+		font-size:40px;
 	}
 
-	.flexContainer p{
+/*	.flexContainer p{
 		font-size:17px;
+	}*/
+
+}
+
+@media (max-width:930px){
+	label p{
+		font-size: 17px;
 	}
 
+	p.qTwo{
+		font-size:35px;
+	}
 }
 
 @media (max-width: 840px) {
@@ -215,8 +225,12 @@ footer p {
 		font-size:19px;
 	}
 
+	p.qTwo {
+    font-size: 25px;
+	}
+
 	label.p {
-		font-size:18px;
+		font-size:15px;
 	}
 
 	.moviePoster {
@@ -232,9 +246,15 @@ footer p {
 		display:none;
 	}
 
-
-
+	.flexContainer {
+		width:104%;
 	}
+
+	.genreDef{
+		width:75%;
+	}
+
+}
 
 
 @media (max-width: 510px) {
@@ -245,6 +265,9 @@ footer p {
 	label.p {
 		font-size: 15px;
 	}
-
+	
+	p.qTwo {
+	    font-size: 28px;
+	}
 
 }
